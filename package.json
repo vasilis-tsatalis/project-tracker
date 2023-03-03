@@ -1,0 +1,36 @@
+{
+  "name": "project-tracker",
+  "version": "1.0.0",
+  "description": "Software tracker for projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasilis-tsatalis/project-tracker.git"
+  },
+  "author": "Vasilis Tsatalis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasilis-tsatalis/project-tracker/issues"
+  },
+  "homepage": "https://github.com/vasilis-tsatalis/project-tracker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.0.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "rotating-file-stream": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
